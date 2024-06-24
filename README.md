@@ -104,11 +104,15 @@ Once the dependencies are installed, you can execute the `main.py` file as follo
 python main.py
 ```
 
-This will execute the code and generate the visualization of the simulated annealing process to solve the Traveling Salesman Problem (TSP) using the departments of Peru as nodes. The final optimal route will be displayed on the graph with the total distance prominently highlighted in the title.
+This will execute the code and generate the visualization of the simulated annealing process to solve the Traveling Salesman Problem (TSP) using the departments of Peru as nodes.
+
+![Initial State](.Captures/initial.png)
+
+The final optimal route will be displayed on the graph with the total distance prominently highlighted in the title.
 
 The plot is titled with the prominently displayed distance of the final optimal route.
 
-![Final State](.Captures/Final_State.png)
+![Final State](.Captures/final.png)
 
 ## Conclusion
 
@@ -224,8 +228,12 @@ Esto ejecutará el código y generará la visualización del proceso de recocido
 
 El gráfico está titulado con la distancia de la ruta óptima final destacada.
 
-![Estado Final](.Captures/Final_State.png)
+![Estado Final](.Captures/final.png)
 
 ## Conclusión
 
 Este código demuestra eficazmente la aplicación del algoritmo de recocido simulado para resolver el TSP para la configuración geográfica de los departamentos del Perú. Al visualizar el progreso y los resultados, proporciona tanto una herramienta educativa como un método de solución práctico.
+
+![Cost Total](.Captures/costo_toal.png)
+
+![Temperature](.Captures/temperature.png)
